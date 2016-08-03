@@ -1,1 +1,0 @@
-select * from scout, players where scout.id = players.id and scout.id = 70944
