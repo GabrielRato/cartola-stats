@@ -1,6 +1,6 @@
 import urllib2, json, pandas, requests
 
-
+#Need this auth to specificaly retrieve the scouts
 def get_key ():
     auth = 'https://login.globo.com/api/authentication'
     payload = "{\"payload\":{\"email\":\"youremail@site.com\",\"password\":\"YourPassword\",\"serviceId\": 438}}"
